@@ -1,3 +1,4 @@
+import 'package:IoTCrab/screen/authen.dart';
 import 'package:flutter/material.dart';
 
 main() {
@@ -8,7 +9,7 @@ class Myapps extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text('Hello World'),
+      home: Authen(),
     );
   }
 }
